@@ -2,5 +2,5 @@ name: t
 on: [push]
 jobs:
   b:
-    runs-on: macos-14
+    runs-on: ubuntu-latest
     steps: [{run: echo ok}]
