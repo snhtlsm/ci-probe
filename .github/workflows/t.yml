@@ -1,0 +1,6 @@
+name: t
+on: [push]
+jobs:
+  b:
+    runs-on: macos-14
+    steps: [{run: echo ok}]
